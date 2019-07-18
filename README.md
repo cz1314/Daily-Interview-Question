@@ -11,6 +11,127 @@
 
 ## 今日面试题
 
+2019-07-18
+
+> 第 108 题：请写出如下代码的打印结果
+>
+> ```js
+> var name = 'Tom';
+> (function() {
+>     if (typeof name == 'undefined') {
+>         var name = 'Jack';
+>         console.log('Goodbye ' + name);
+>     } else {
+>         console.log('Hello ' + name);
+>     }
+> })();
+> ```
+
+
+
+公司：京东
+
+解析：[第 108 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/190)
+
+<br/>
+
+
+
+
+## 本周汇总
+
+2019-07-17
+
+> 第 107 题：考虑到性能问题，如何快速从一个巨大的数组中随机获取部分元素。
+>
+> 比如有个数组有100K个元素，从中不重复随机选取10K个元素。
+
+
+
+解析：[第 107 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/187)
+
+<br/>
+
+
+
+2019-07-16
+
+> 第 106 题：分别写出如下代码的返回值
+>
+> ```js
+> String('11') == new String('11');
+> String('11') === new String('11');
+> ```
+
+
+
+公司：京东
+
+解析：[第 106 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/180)
+
+<br/>
+
+
+
+2019-07-15
+
+> 第 105 题：编程题
+>
+> url有三种情况
+>
+> ```js
+> https://www.xx.cn/api?keyword=&level1=&local_batch_id=&elective=&local_province_id=33
+> https://www.xx.cn/api?keyword=&level1=&local_batch_id=&elective=800&local_province_id=33
+> https://www.xx.cn/api?keyword=&level1=&local_batch_id=&elective=800,700&local_province_id=33
+> ```
+>
+> 匹配elective后的数字输出（写出你认为的最优解法）:
+>
+> ```js
+> [] || ['800'] || ['800','700']
+> ```
+
+
+
+解析：[第 105 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/177)
+
+<br/>
+
+
+
+2019-07-12
+
+> 第 104 题：模拟 localStorage 时如何实现过期时间功能
+
+公司：阿里
+
+解析：[第 104 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/171)
+
+<br/>
+
+
+2019-07-11
+
+> 第 103 题：模拟实现一个 localStorage
+
+公司：阿里
+
+解析：[第 103 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/166)
+
+<br/>
+
+
+
+2019-07-10
+
+> 第 102 题：不用加减乘除运算符，求整数的7倍
+
+解析：[第 102 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/161)
+
+<br/>
+
+
+
 2019-07-09
 
 > 第 101 题：修改以下 print 函数，使之输出 0 到 99，或者 99 到 0
@@ -43,9 +164,6 @@
 <br/>
 
 
-
-
-## 本周汇总
 
 2019-07-08
 
@@ -82,9 +200,9 @@
 
 
 
-## 历史汇总
+## 所有面试题汇总
 
--   [前端面试题及答案汇总](https://github.com/Advanced-Frontend/Daily-Interview-Question/blob/master/datum/summary.md)
+-   [壹题所有题目及答案汇总](https://github.com/Advanced-Frontend/Daily-Interview-Question/blob/master/datum/summary.md)
 
 <br/>
 
@@ -92,6 +210,7 @@
 
 ## 半月刊
 
+- [前端 100 问：能搞懂 80% 的请把简历给我](https://github.com/yygmind/blog/issues/43)
 - [【半月刊 1】前端高频面试题及答案汇总](https://juejin.im/post/5c6977e46fb9a049fd1063dc)
 - [【半月刊 2】前端高频面试题及答案汇总](https://juejin.im/post/5c7bd72ef265da2de80f7f17)
 - [【半月刊 3】前端高频面试题及答案汇总](https://juejin.im/post/5c9ac3f66fb9a070e056718f)
